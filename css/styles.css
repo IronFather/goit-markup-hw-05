@@ -340,10 +340,10 @@ color: var(--second-cl);
 .service-label-box {
     display: flex;
     position: absolute;
-    width: 370px;
-    height: 70px;
+    width: 100%;
     left: 0px;
     bottom: 0px;
+    padding: 24px 0;
     align-items: center;
     justify-content: center;
     background: rgba(47, 48, 58, 0.8);
