@@ -122,9 +122,6 @@ color: var(--second-cl);
     list-style: none;
 }
 
-/* fixed 1 size of icons in header by changes in sprite */
-/* fixed color of icons in header */
-
 .header-contacts-icon {
     fill: var(--main-cl);
 }
@@ -337,6 +334,29 @@ color: var(--second-cl);
     margin-right: 30px;
 }
 
+.service-items-desktop {
+    position: relative;
+}
+.service-label-box {
+    display: flex;
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    left: 0px;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.service-label {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--add_white_cl);
+}
+
 /* TEAM */
 
 .team {
@@ -399,7 +419,6 @@ color: var(--second-cl);
 text-decoration: none;
 } 
 
-/* fixed 2 changed margin-bottom from items to list */
 .social-media {
     display: flex;
     justify-content: center;
@@ -436,7 +455,6 @@ text-decoration: none;
 .clients {
     background-color: var(--main-bg-cl);
 }
-/* fixed 4 deleted margin */
     .clients-title {
     font-weight: 700;
     font-size: 36px;
@@ -466,7 +484,6 @@ text-decoration: none;
     fill: var(--border-clients-cl);
 }
 
-/* fixed 5 corrected formula */
 .clients-list-container {
     --items: 6;
     --indent: 30px;
@@ -537,13 +554,11 @@ text-decoration: none;
     list-style: none;
 }
  /* footer smi */
- /* fixed 9 added baseline to footer */
 .footer-container {
     display: flex;
     align-items: baseline;
 }
 
-/* fixed 7,8 deleted over */
 .footer-smi-box {
     margin-left: 70px;
     width: 206px;
@@ -720,7 +735,6 @@ ul {
 }
 
 /* SECTIONS */
-/* fixed 3 deleted max-width in section */
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
