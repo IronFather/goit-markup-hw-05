@@ -419,13 +419,15 @@ border-radius: 2px;
 .service-items-desktop {
     position: relative;
 }
+
+/* fixed 2 added height instead of padding */
 .service-label-box {
     display: flex;
     position: absolute;
     width: 100%;
+    height: 70px;
     left: 0px;
     bottom: 0px;
-    padding: 24px 0;
     align-items: center;
     justify-content: center;
     background-color: rgba(47, 48, 58, 0.8);
