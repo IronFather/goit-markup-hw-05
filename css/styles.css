@@ -298,6 +298,8 @@ border-radius: 2px;
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
+    /* fixed 1 added transition for backdrop and modal window */
+    transition: opacity var(--anim-duration-timing), visibility var(--anim-duration-timing);
 } 
 
 .modal {
@@ -309,7 +311,6 @@ border-radius: 2px;
     min-height: 581px;
 
     background-color: var(--add_white_cl);
-    transition: opacity var(--anim-duration-timing), visibility var(--anim-duration-timing);
 }
 
 .backdrop.is-hidden {
