@@ -526,10 +526,10 @@ text-decoration: none;
     transition: background-color var(--anim-duration-timing);
 }
 
+/* fixed 3 deleted bg-c for icon */
 .team-smi-link:hover .team-smi-icon,
 .team-smi-link:focus .team-smi-icon {
     fill: var(--add_white_cl);
-    background-color: var(--accent-bg-cl);
 } 
 
 .team-smi-link:hover,
@@ -689,10 +689,10 @@ text-decoration: none;
     transition: background-color var(--anim-duration-timing)
 } 
 
+/* fixed 3 deleted bg-c for icon */
 .footer-smi-link:hover .footer-smi-icon,
 .footer-smi-link:focus .footer-smi-icon {
     fill: var(--add_white_cl);
-    background-color: var(--accent-bg-cl);
 }
 
 .footer-smi-link:hover,
